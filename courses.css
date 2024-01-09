@@ -1,0 +1,96 @@
+.navbar{
+    background-color: rgb(31, 29, 29);
+}
+.nav-item a {
+    color:#06BBCC;
+}
+.navbar h1{
+    color: #06BBCC;
+}
+.nav-item a:hover{
+    cursor: pointer;
+    font-weight: 600;
+    color:white;    
+}
+.backcolor{
+    background: rgba(24, 29, 56, .7)
+}
+.heading{
+    font-size:80px;
+}
+.categories-heading{
+    color: #06BBCC;    
+}
+.No-courses{
+    color: #06BBCC;
+}
+.sidebottem{
+    margin: 2px;
+}
+.btn-sm1{
+    border-radius: 30px 0 0 30px;
+    background-color: #06BBCC;
+}
+.btn-sm2{
+    border-radius: 0 30px 30px 0;
+    background-color: #06BBCC;
+}
+.courses-item {
+    background: #F0FBFC;
+}
+.fa{
+    color: #06BBCC;
+}
+.courses-heading{
+    color: #06BBCC;
+}
+.text:hover{
+    background-color: #06BBCC;
+}
+.text{
+    background: #F0FBFC ;
+}
+.Testimonial-heading{
+    color: #06BBCC;
+}
+.footer{
+    background-color: rgb(52, 52, 78);
+    color: #F0FBFC;
+}
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    bottom: 30px;
+    background-color:#06BBCC;
+}
+.back-to-top i {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer-link a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.signup-btn{
+    background-color: #06BBCC;
+}
+@media (max-width: 768px) {
+    .header-carousel .owl-carousel-item {
+        position: relative;
+        min-height: 500px;
+    }
+    
+    .header-carousel .owl-carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
